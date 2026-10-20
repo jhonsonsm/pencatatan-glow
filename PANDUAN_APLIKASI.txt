@@ -1,0 +1,13 @@
+PANDUAN APLIKASI RAPIUSAHA
+
+Lokasi Folder: C:\Users\MSI Modern 14\rapiusaha
+
+Cara Menjalankan:
+- Cukup double-click file "1-KLIK_BUKA_APLIKASI.bat" di dalam folder ini.
+- Aplikasi akan otomatis menyalakan server lokal dan membuka browser di http://localhost:4173.
+
+Isi Folder:
+- 1-KLIK_BUKA_APLIKASI.bat -> Peluncur aplikasi otomatis
+- rapiusaha.db -> Database SQLite (data transaksi tersimpan di sini)
+- server/ -> Backend Node.js & integrasi AI (Vision OCR & Chatbot)
+- src/ & dist/ -> Frontend antarmuka aplikasi
