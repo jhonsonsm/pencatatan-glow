@@ -51,9 +51,9 @@ export const Sidebar: React.FC<SidebarProps> = ({
       )}
       <aside className={`sidebar ${isOpen ? 'open' : ''}`}>
         <div className="brand">
-          <div className="brandmark">RU</div>
+          <div className="brandmark">PG</div>
           <div className="brandname">
-            RapiUsaha
+            Pencatatan Glow
             <small>ASISTEN KEUANGAN UMKM</small>
           </div>
         </div>
@@ -142,7 +142,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
           </div>
 
           <div className="sidebar-foot">
-            RapiUsaha Frontend Demo v0.1<br />
+            Pencatatan Glow v0.1<br />
             Khusus Pratinjau & Presentasi
           </div>
         </div>

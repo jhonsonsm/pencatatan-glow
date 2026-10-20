@@ -24,7 +24,7 @@ export const AssistantScreen: React.FC<AssistantScreenProps> = ({
     {
       id: 'welcome',
       sender: 'bot',
-      text: 'Halo ' + profile.ownerName + '! Saya Asisten Keuangan AI RapiUsaha. Saya terhubung langsung ke data database ' + profile.name + '. Tanyakan apa saja seputar batas aman ambil prive, sisa kas operasional, tagihan bon, atau strategi belanja bahan baku Anda!',
+      text: 'Halo ' + profile.ownerName + '! Saya Asisten Keuangan AI Pencatatan Glow. Saya terhubung langsung ke data database ' + profile.name + '. Tanyakan apa saja seputar batas aman ambil prive, sisa kas operasional, tagihan bon, atau strategi belanja bahan baku Anda!',
       time: '12:00'
     }
   ]);
@@ -119,7 +119,7 @@ export const AssistantScreen: React.FC<AssistantScreenProps> = ({
               <Bot size={20} />
             </div>
             <div>
-              <strong style={{ display: 'block', fontSize: '13px', color: 'var(--ink)' }}>RapiUsaha AI Advisor</strong>
+              <strong style={{ display: 'block', fontSize: '13px', color: 'var(--ink)' }}>Pencatatan Glow AI Advisor</strong>
               <span style={{ fontSize: '11px', color: 'var(--muted)' }}>
                 Kas Operasional: {formatCurrency(summary.operatingBalance)} • Runway: {summary.runwayDays} Hari
               </span>

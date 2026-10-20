@@ -152,5 +152,5 @@ app.post('/api/ai/chat', async (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`[RapiUsaha Server] Running on http://localhost:${PORT}`);
+  console.log(`[Pencatatan Glow Server] Running on http://localhost:${PORT}`);
 });

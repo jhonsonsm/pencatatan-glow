@@ -1,4 +1,4 @@
-# RapiUsaha — Asisten Keuangan UMKM (Full App)
+# Pencatatan Glow — Asisten Keuangan UMKM (Full App)
 
 Aplikasi asisten keuangan, pembukuan kas harian, dan kesehatan finansial cerdas yang dirancang khusus untuk pelaku UMKM di Indonesia.
 

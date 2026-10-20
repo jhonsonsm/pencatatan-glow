@@ -46,7 +46,7 @@ export const Header: React.FC<HeaderProps> = ({
         </button>
 
         <div className="crumbs">
-          <span style={{ color: 'var(--muted)' }}>RapiUsaha</span>
+          <span style={{ color: 'var(--muted)' }}>Pencatatan Glow</span>
           <span className="crumb-sep">/</span>
           <strong style={{ color: 'var(--ink)' }}>{screenLabels[currentScreen] || 'Ringkasan'}</strong>
         </div>

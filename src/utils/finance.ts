@@ -153,7 +153,7 @@ export const exportTransactionsToCsv = (transactions: Transaction[]) => {
   const url = URL.createObjectURL(blob);
   const link = document.createElement('a');
   link.setAttribute('href', url);
-  link.setAttribute('download', `RapiUsaha_Transaksi_Demo_${new Date().toISOString().split('T')[0]}.csv`);
+  link.setAttribute('download', `Pencatatan_Glow_Transaksi_${new Date().toISOString().split('T')[0]}.csv`);
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);

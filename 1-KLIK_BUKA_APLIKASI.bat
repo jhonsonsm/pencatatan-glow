@@ -1,8 +1,8 @@
 @echo off
-title Membuka RapiUsaha...
+title Membuka Pencatatan Glow...
 cd /d "C:\Users\MSI Modern 14\rapiusaha"
 echo ===================================================
-echo             MEMBUKA APLIKASI RAPIUSAHA
+echo             MEMBUKA APLIKASI PENCATATAN GLOW
 echo ===================================================
 echo [1/2] Memeriksa server aplikasi...
 curl -s http://localhost:4173 >nul 2>&1

@@ -147,7 +147,7 @@ JANGAN tambahkan markdown atau teks lain. HANYA JSON murni.`;
 }
 
 export async function chatFinancialAi(userMessage, conversationHistory = [], businessContext = {}) {
-  const systemPrompt = `Anda adalah Asisten Keuangan Pribadi RapiUsaha yang ramah, solutif, dan cerdas mendampingi UMKM Indonesia.
+  const systemPrompt = `Anda adalah Asisten Keuangan Pribadi Pencatatan Glow yang ramah, solutif, dan cerdas mendampingi UMKM Indonesia.
 
 DATA AKTIF USAHA PENGGUNA SAAT INI:
 - Nama Usaha: ${businessContext.businessName || 'Warung Makan'}
